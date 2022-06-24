@@ -1,8 +1,5 @@
-let fullName = 'Ademide Stephen Haffner. <br/>';
-let height = '157cm. <br/>';
-let country = 'Nigeria. <br/>';
+let fullName = 'Name: Ademide Stephen Haffner.\n';
+let height = 'Height: 167cm.\n';
+let country = 'Country: Nigeria.';
 
-
-document.write('Name:' + '  ' + fullName);
-document.write('Height:' + '  ' + height);
-document.write('Country:' + '  ' + country);
+window.alert(fullName + height + country)
